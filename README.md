@@ -4,10 +4,10 @@
 Я обрав модель **Голуба**
 
 # Діаграмма 
-<img src="https://github.com/ppc-ntu-khpi/Inheritance-Starter/blob/master/images/dove-diagram.png" width="100%"/>
+<img src="https://github.com/ppc-ntu-khpi/java-inheritance-serhio-sys/blob/master/images/dove-diagram.png" width="100%"/>
 
 # Скріншот працюючої програми й классу TestAnimal
-<img src="https://github.com/ppc-ntu-khpi/Inheritance-Starter/blob/master/images/dovetest.png" width="100%"/>
+<img src="https://github.com/ppc-ntu-khpi/java-inheritance-serhio-sys/blob/master/images/dovetest.png" width="100%"/>
 
 
 # Код до класу Animal
