@@ -1,28 +1,94 @@
 [![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-f4981d0f882b2a3f0472912d15f9806d57e124e0fc890972558857b51b24a6f9.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=10180158)
-# Практична робота "Реалізація успадкування"
-Цей репозиторій містить приклад виконання та інструкції для виконання практичної роботи з наслідування в JAVA. 
+# Практична робота "Реалізація успадкування"'
 
-Для прикладу я змоделював **звичайнісінького кота**😉
+Я обрав модель **Голуба**
 
-<img src="https://github.com/ppc-ntu-khpi/Inheritance-Starter/blob/master/images/cat.jpg" width="100%"/>
-<img src="https://github.com/ppc-ntu-khpi/Inheritance-Starter/blob/master/images/Cat-Diagram.png" width="100%"/>
+# Діаграмма 
+<img src="https://github.com/ppc-ntu-khpi/Inheritance-Starter/blob/master/images/dove-diagram.png" width="100%"/>
 
-## В рамках практичної роботи ви маєте зробити наступне:
-1. подумайте, які риси та поведінка притаманні всім без винятку тваринам 
-2. оберіть будь-яку тварину (не стримуйте свою фантазію😉)
-2. з допомогою **easyUML** для Netbeans або **StarUML** створіть діаграму класів для обраної тварини. Ви маєте отримати шось подібне до прикладу з цього репозиторію.
-3. згенеруйте каркасний код на основі діаграми
-4. допрацюйте код - *всі методи мають виводити на екран повідомлення про те, що робить тварина!*
-5. створіть тестовий клас, в методі **main** якого створіть об'єкт класу тварини та викличіть його методи
-3. завантажте ваш код до до теки **src** вашого репозиторію (замінивши код прикладу). Експортовану (в PNG) діаграму завантажте в теку **images** та додайте в **Readme** (не забудьте в ньому описати що за тварину ви обрали)
-4. здайте завдання. **УВАГА! Не забудьте, здаючи завдання через Google Classroom, вказати посилання на Ваш репозиторій!**
+# Скріншот працюючої програми й классу TestAnimal
+<img src="https://github.com/ppc-ntu-khpi/Inheritance-Starter/blob/master/images/dovetest.png" width="100%"/>
 
-## Відеодемонстрація виконання практичної
 
-<p align="center">
-<a href="https://www.youtube.com/watch?v=SFSC1omkE8Q&feature=youtu.be" target="_blank"><img src="https://img.youtube.com/vi/SFSC1omkE8Q/0.jpg"/></a>
-</p>
+# Код до класу Animal
+```java
+package domain;
 
-Не забувайте, що ви можете обговорювати завдання в девелоперському мессенджері **Gitter** - у відповідній [чат-кімнаті](https://gitter.im/PPC-SE-2020/OOP?utm_source=share-link&utm_medium=link&utm_campaign=share-link).
+public class Animal {
 
-[![Gitter](https://badges.gitter.im/PPC-SE-2020/OOP.svg)](https://gitter.im/PPC-SE-2020/OOP?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+    protected String name;
+
+    protected float weight;
+
+    public Animal() {
+        name="generic animal";
+        weight=25;
+    }
+
+    public void eat() {
+        System.out.println("Animal eating...");
+    }
+
+    @Override
+    public String toString() {
+        return "My animal:" + "\nName:\t" + name + "\nWeight:\t" + weight+" kg";
+    }
+
+ 
+}
+```
+
+
+# Код до класу Bird
+```java
+package domain;
+
+public class Bird extends Animal {
+
+    public void fly() {
+        System.out.println("Bird is flying in clear sky!");
+    }
+}
+
+```
+
+# Код до класу Dove
+```java
+package domain;
+
+public class Dove extends Bird {
+
+    private String kind;
+
+    public Dove(String name, float weight, String kind) {
+        this.name=name;
+        this.weight=weight;
+        this.kind=kind;
+    }
+
+    public Dove() {
+        this("Dove",3.5f,"Mail Dove");
+    }
+
+    public void sendMail(String mail){
+        System.out.println("Your mail is arrived:\n" + mail);
+    }
+
+    @Override
+    public void fly() {
+        System.out.println("Dove is flying in clear sky...");
+    }
+
+    @Override
+    public String toString() {
+        return super.toString()+"\nKind:\t"+this.kind+"\n\nThis is Dove!";
+    }
+
+    @Override
+    public void eat() {
+        System.out.println("Dove is eating various seeds and nuts...");
+    }
+    
+    
+}
+```
