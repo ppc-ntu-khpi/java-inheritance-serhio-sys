@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classdomain_1_1_bird" xml:lang="en-US">
+<title>domain.Bird Class Reference</title>
+<indexterm><primary>domain.Bird</primary></indexterm>
+<para>Inheritance diagram for domain.Bird:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classdomain_1_1_bird.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_classdomain_1_1_bird_1a4102ef3fffae4c27a38a9badd5d44aa6">fly</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+Public Member Functions inherited from <link linkend="_classdomain_1_1_animal">domain.Animal</link>        <itemizedlist>
+            <listitem><para><link linkend="_classdomain_1_1_animal_1acfbf1405e335fb7887eba1f22cf484c2">Animal</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classdomain_1_1_animal_1aeb4cdcb2e2faa803e125dea86486e474">eat</link> ()</para>
+</listitem>
+            <listitem><para>String <link linkend="_classdomain_1_1_animal_1a1b29e1c4522c9593ac169ea0b113fa07">toString</link> ()</para>
+</listitem>
+        </itemizedlist>
+<simplesect>
+    <title>Additional Inherited Members    </title>
+Protected Attributes inherited from <link linkend="_classdomain_1_1_animal">domain.Animal</link>        <itemizedlist>
+            <listitem><para>String <link linkend="_classdomain_1_1_animal_1aa404f820cb6a0fdfb51dc488a8c9f871">name</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_classdomain_1_1_animal_1a937ad181fcbf5bac512bd934bda9f1f4">weight</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line <link linkend="__bird_8java_source_1l00003">3</link> of file <link linkend="__bird_8java_source">Bird.java</link>.</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classdomain_1_1_bird_1a4102ef3fffae4c27a38a9badd5d44aa6"/><section>
+    <title>fly()</title>
+<indexterm><primary>fly</primary><secondary>domain.Bird</secondary></indexterm>
+<indexterm><primary>domain.Bird</primary><secondary>fly</secondary></indexterm>
+<para><computeroutput>void domain.Bird.fly ( )</computeroutput></para><para>
+Reimplemented in <link linkend="_classdomain_1_1_dove_1af841a752b6c58c3798065edba106d943">domain.Dove</link>.</para>
+<para>
+Definition at line <link linkend="__bird_8java_source_1l00005">5</link> of file <link linkend="__bird_8java_source">Bird.java</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+F:/Java_Projects/java-inheritance-serhio-sys/src/domain/<link linkend="__bird_8java">Bird.java</link></section>
+</section>

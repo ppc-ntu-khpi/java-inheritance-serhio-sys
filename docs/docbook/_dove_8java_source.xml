@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__dove_8java_source" xml:lang="en-US">
+<title>Dove.java</title>
+<indexterm><primary>F:/Java_Projects/java-inheritance-serhio-sys/src/domain/Dove.java</primary></indexterm>
+Go to the documentation of this file.<programlisting linenumbering="unnumbered"><anchor xml:id="__dove_8java_source_1l00001"/>00001 <emphasis role="keyword">package&#32;</emphasis>domain;
+<anchor xml:id="__dove_8java_source_1l00002"/>00002 
+<anchor xml:id="__dove_8java_source_1l00003"/><link linkend="_classdomain_1_1_dove">00003</link> <emphasis role="keyword">public</emphasis>&#32;<emphasis role="keyword">class&#32;</emphasis><link linkend="_classdomain_1_1_dove">Dove</link>&#32;<emphasis role="keyword">extends</emphasis>&#32;<link linkend="_classdomain_1_1_bird">Bird</link>&#32;{
+<anchor xml:id="__dove_8java_source_1l00004"/>00004 
+<anchor xml:id="__dove_8java_source_1l00005"/>00005 &#32;&#32;&#32;&#32;<emphasis role="keyword">private</emphasis>&#32;String&#32;kind;
+<anchor xml:id="__dove_8java_source_1l00006"/>00006 
+<anchor xml:id="__dove_8java_source_1l00007"/><link linkend="_classdomain_1_1_dove_1a416b684717e71eba467865cfab505e6d">00007</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<link linkend="_classdomain_1_1_dove_1a416b684717e71eba467865cfab505e6d">Dove</link>(String&#32;<link linkend="_classdomain_1_1_animal_1aa404f820cb6a0fdfb51dc488a8c9f871">name</link>,&#32;<emphasis role="keywordtype">float</emphasis>&#32;<link linkend="_classdomain_1_1_animal_1a937ad181fcbf5bac512bd934bda9f1f4">weight</link>,&#32;String&#32;kind)&#32;{
+<anchor xml:id="__dove_8java_source_1l00008"/>00008 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.name=<link linkend="_classdomain_1_1_animal_1aa404f820cb6a0fdfb51dc488a8c9f871">name</link>;
+<anchor xml:id="__dove_8java_source_1l00009"/>00009 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.weight=<link linkend="_classdomain_1_1_animal_1a937ad181fcbf5bac512bd934bda9f1f4">weight</link>;
+<anchor xml:id="__dove_8java_source_1l00010"/>00010 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.kind=kind;
+<anchor xml:id="__dove_8java_source_1l00011"/>00011 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__dove_8java_source_1l00012"/>00012 
+<anchor xml:id="__dove_8java_source_1l00013"/><link linkend="_classdomain_1_1_dove_1a06a5b90f516a42bbc0cf57d01da13aa9">00013</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<link linkend="_classdomain_1_1_dove_1a06a5b90f516a42bbc0cf57d01da13aa9">Dove</link>()&#32;{
+<anchor xml:id="__dove_8java_source_1l00014"/>00014 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">this</emphasis>(<emphasis role="stringliteral">&quot;Dove&quot;</emphasis>,3.5f,<emphasis role="stringliteral">&quot;Mail&#32;Dove&quot;</emphasis>);
+<anchor xml:id="__dove_8java_source_1l00015"/>00015 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__dove_8java_source_1l00016"/>00016 
+<anchor xml:id="__dove_8java_source_1l00017"/><link linkend="_classdomain_1_1_dove_1ab21d3b85c9ad798c2a4b477380e8bd82">00017</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_classdomain_1_1_dove_1ab21d3b85c9ad798c2a4b477380e8bd82">sendMail</link>(String&#32;mail){
+<anchor xml:id="__dove_8java_source_1l00018"/>00018 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;System.out.println(<emphasis role="stringliteral">&quot;Your&#32;mail&#32;is&#32;arrived:\n&quot;</emphasis>&#32;+&#32;mail);
+<anchor xml:id="__dove_8java_source_1l00019"/>00019 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__dove_8java_source_1l00020"/>00020 
+<anchor xml:id="__dove_8java_source_1l00021"/>00021 &#32;&#32;&#32;&#32;@Override
+<anchor xml:id="__dove_8java_source_1l00022"/><link linkend="_classdomain_1_1_dove_1af841a752b6c58c3798065edba106d943">00022</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_classdomain_1_1_dove_1af841a752b6c58c3798065edba106d943">fly</link>()&#32;{
+<anchor xml:id="__dove_8java_source_1l00023"/>00023 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;System.out.println(<emphasis role="stringliteral">&quot;Dove&#32;is&#32;flying&#32;in&#32;clear&#32;sky...&quot;</emphasis>);
+<anchor xml:id="__dove_8java_source_1l00024"/>00024 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__dove_8java_source_1l00025"/>00025 
+<anchor xml:id="__dove_8java_source_1l00026"/>00026 &#32;&#32;&#32;&#32;@Override
+<anchor xml:id="__dove_8java_source_1l00027"/><link linkend="_classdomain_1_1_dove_1ae185c889d25840368e3eabbd2596a113">00027</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;String&#32;<link linkend="_classdomain_1_1_dove_1ae185c889d25840368e3eabbd2596a113">toString</link>()&#32;{
+<anchor xml:id="__dove_8java_source_1l00028"/>00028 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>&#32;super.toString()+<emphasis role="stringliteral">&quot;\nKind:\t&quot;</emphasis>+this.kind+<emphasis role="stringliteral">&quot;\n\nThis&#32;is&#32;Dove!&quot;</emphasis>;
+<anchor xml:id="__dove_8java_source_1l00029"/>00029 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__dove_8java_source_1l00030"/>00030 
+<anchor xml:id="__dove_8java_source_1l00031"/>00031 &#32;&#32;&#32;&#32;@Override
+<anchor xml:id="__dove_8java_source_1l00032"/><link linkend="_classdomain_1_1_dove_1a3f0d7bfaaf92b2c9fff30fab0a88013d">00032</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_classdomain_1_1_dove_1a3f0d7bfaaf92b2c9fff30fab0a88013d">eat</link>()&#32;{
+<anchor xml:id="__dove_8java_source_1l00033"/>00033 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;System.out.println(<emphasis role="stringliteral">&quot;Dove&#32;is&#32;eating&#32;various&#32;seeds&#32;and&#32;nuts...&quot;</emphasis>);
+<anchor xml:id="__dove_8java_source_1l00034"/>00034 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__dove_8java_source_1l00035"/>00035 &#32;&#32;&#32;&#32;
+<anchor xml:id="__dove_8java_source_1l00036"/>00036 &#32;&#32;&#32;&#32;
+<anchor xml:id="__dove_8java_source_1l00037"/>00037 }
+</programlisting></section>

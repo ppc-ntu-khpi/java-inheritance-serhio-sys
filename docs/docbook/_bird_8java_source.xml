@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__bird_8java_source" xml:lang="en-US">
+<title>Bird.java</title>
+<indexterm><primary>F:/Java_Projects/java-inheritance-serhio-sys/src/domain/Bird.java</primary></indexterm>
+Go to the documentation of this file.<programlisting linenumbering="unnumbered"><anchor xml:id="__bird_8java_source_1l00001"/>00001 <emphasis role="keyword">package&#32;</emphasis>domain;
+<anchor xml:id="__bird_8java_source_1l00002"/>00002 
+<anchor xml:id="__bird_8java_source_1l00003"/><link linkend="_classdomain_1_1_bird">00003</link> <emphasis role="keyword">public</emphasis>&#32;<emphasis role="keyword">class&#32;</emphasis><link linkend="_classdomain_1_1_bird">Bird</link>&#32;<emphasis role="keyword">extends</emphasis>&#32;<link linkend="_classdomain_1_1_animal">Animal</link>&#32;{
+<anchor xml:id="__bird_8java_source_1l00004"/>00004 
+<anchor xml:id="__bird_8java_source_1l00005"/><link linkend="_classdomain_1_1_bird_1a4102ef3fffae4c27a38a9badd5d44aa6">00005</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_classdomain_1_1_bird_1a4102ef3fffae4c27a38a9badd5d44aa6">fly</link>()&#32;{
+<anchor xml:id="__bird_8java_source_1l00006"/>00006 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;System.out.println(<emphasis role="stringliteral">&quot;Bird&#32;is&#32;flying&#32;in&#32;clear&#32;sky!&quot;</emphasis>);
+<anchor xml:id="__bird_8java_source_1l00007"/>00007 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__bird_8java_source_1l00008"/>00008 }
+</programlisting></section>
