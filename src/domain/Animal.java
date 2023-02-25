@@ -4,7 +4,7 @@ public class Animal {
 
     protected String name;
 
-    protected int weight;
+    protected float weight;
 
     public Animal() {
         name="generic animal";
@@ -13,10 +13,6 @@ public class Animal {
 
     public void eat() {
         System.out.println("Animal eating...");
-    }
-
-    public void speak() {
-        System.out.println("Animal speaking...");
     }
 
     @Override

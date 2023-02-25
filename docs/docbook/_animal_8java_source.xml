@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__animal_8java_source" xml:lang="en-US">
+<title>Animal.java</title>
+<indexterm><primary>F:/Java_Projects/java-inheritance-serhio-sys/src/domain/Animal.java</primary></indexterm>
+Go to the documentation of this file.<programlisting linenumbering="unnumbered"><anchor xml:id="__animal_8java_source_1l00001"/><link linkend="_namespacedomain">00001</link> <emphasis role="keyword">package&#32;</emphasis>domain;
+<anchor xml:id="__animal_8java_source_1l00002"/>00002 
+<anchor xml:id="__animal_8java_source_1l00003"/><link linkend="_classdomain_1_1_animal">00003</link> <emphasis role="keyword">public</emphasis>&#32;<emphasis role="keyword">class&#32;</emphasis><link linkend="_classdomain_1_1_animal">Animal</link>&#32;{
+<anchor xml:id="__animal_8java_source_1l00004"/>00004 
+<anchor xml:id="__animal_8java_source_1l00005"/><link linkend="_classdomain_1_1_animal_1aa404f820cb6a0fdfb51dc488a8c9f871">00005</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">protected</emphasis>&#32;String&#32;<link linkend="_classdomain_1_1_animal_1aa404f820cb6a0fdfb51dc488a8c9f871">name</link>;
+<anchor xml:id="__animal_8java_source_1l00006"/>00006 
+<anchor xml:id="__animal_8java_source_1l00007"/><link linkend="_classdomain_1_1_animal_1a937ad181fcbf5bac512bd934bda9f1f4">00007</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">protected</emphasis>&#32;<emphasis role="keywordtype">float</emphasis>&#32;<link linkend="_classdomain_1_1_animal_1a937ad181fcbf5bac512bd934bda9f1f4">weight</link>;
+<anchor xml:id="__animal_8java_source_1l00008"/>00008 
+<anchor xml:id="__animal_8java_source_1l00009"/><link linkend="_classdomain_1_1_animal_1acfbf1405e335fb7887eba1f22cf484c2">00009</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<link linkend="_classdomain_1_1_animal_1acfbf1405e335fb7887eba1f22cf484c2">Animal</link>()&#32;{
+<anchor xml:id="__animal_8java_source_1l00010"/>00010 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<link linkend="_classdomain_1_1_animal_1aa404f820cb6a0fdfb51dc488a8c9f871">name</link>=<emphasis role="stringliteral">&quot;generic&#32;animal&quot;</emphasis>;
+<anchor xml:id="__animal_8java_source_1l00011"/>00011 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<link linkend="_classdomain_1_1_animal_1a937ad181fcbf5bac512bd934bda9f1f4">weight</link>=25;
+<anchor xml:id="__animal_8java_source_1l00012"/>00012 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__animal_8java_source_1l00013"/>00013 
+<anchor xml:id="__animal_8java_source_1l00014"/><link linkend="_classdomain_1_1_animal_1aeb4cdcb2e2faa803e125dea86486e474">00014</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_classdomain_1_1_animal_1aeb4cdcb2e2faa803e125dea86486e474">eat</link>()&#32;{
+<anchor xml:id="__animal_8java_source_1l00015"/>00015 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;System.out.println(<emphasis role="stringliteral">&quot;Animal&#32;eating...&quot;</emphasis>);
+<anchor xml:id="__animal_8java_source_1l00016"/>00016 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__animal_8java_source_1l00017"/>00017 
+<anchor xml:id="__animal_8java_source_1l00018"/>00018 &#32;&#32;&#32;&#32;@Override
+<anchor xml:id="__animal_8java_source_1l00019"/><link linkend="_classdomain_1_1_animal_1a1b29e1c4522c9593ac169ea0b113fa07">00019</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;String&#32;<link linkend="_classdomain_1_1_animal_1a1b29e1c4522c9593ac169ea0b113fa07">toString</link>()&#32;{
+<anchor xml:id="__animal_8java_source_1l00020"/>00020 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>&#32;<emphasis role="stringliteral">&quot;My&#32;animal:&quot;</emphasis>&#32;+&#32;<emphasis role="stringliteral">&quot;\nName:\t&quot;</emphasis>&#32;+&#32;<link linkend="_classdomain_1_1_animal_1aa404f820cb6a0fdfb51dc488a8c9f871">name</link>&#32;+&#32;<emphasis role="stringliteral">&quot;\nWeight:\t&quot;</emphasis>&#32;+&#32;<link linkend="_classdomain_1_1_animal_1a937ad181fcbf5bac512bd934bda9f1f4">weight</link>+<emphasis role="stringliteral">&quot;&#32;kg&quot;</emphasis>;
+<anchor xml:id="__animal_8java_source_1l00021"/>00021 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__animal_8java_source_1l00022"/>00022 
+<anchor xml:id="__animal_8java_source_1l00023"/>00023 &#32;
+<anchor xml:id="__animal_8java_source_1l00024"/>00024 }
+</programlisting></section>

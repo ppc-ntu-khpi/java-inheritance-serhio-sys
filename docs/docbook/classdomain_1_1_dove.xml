@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classdomain_1_1_dove" xml:lang="en-US">
+<title>domain.Dove Class Reference</title>
+<indexterm><primary>domain.Dove</primary></indexterm>
+<para>Inheritance diagram for domain.Dove:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classdomain_1_1_dove.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classdomain_1_1_dove_1a416b684717e71eba467865cfab505e6d">Dove</link> (String <link linkend="_classdomain_1_1_animal_1aa404f820cb6a0fdfb51dc488a8c9f871">name</link>, float <link linkend="_classdomain_1_1_animal_1a937ad181fcbf5bac512bd934bda9f1f4">weight</link>, String kind)</para>
+</listitem>
+            <listitem><para><link linkend="_classdomain_1_1_dove_1a06a5b90f516a42bbc0cf57d01da13aa9">Dove</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classdomain_1_1_dove_1ab21d3b85c9ad798c2a4b477380e8bd82">sendMail</link> (String mail)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classdomain_1_1_dove_1af841a752b6c58c3798065edba106d943">fly</link> ()</para>
+</listitem>
+            <listitem><para>String <link linkend="_classdomain_1_1_dove_1ae185c889d25840368e3eabbd2596a113">toString</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classdomain_1_1_dove_1a3f0d7bfaaf92b2c9fff30fab0a88013d">eat</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_classdomain_1_1_bird_1a4102ef3fffae4c27a38a9badd5d44aa6">fly</link> ()</para>
+</listitem>
+        </itemizedlist>
+Public Member Functions inherited from <link linkend="_classdomain_1_1_animal">domain.Animal</link>        <itemizedlist>
+            <listitem><para><link linkend="_classdomain_1_1_animal_1acfbf1405e335fb7887eba1f22cf484c2">Animal</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classdomain_1_1_animal_1aeb4cdcb2e2faa803e125dea86486e474">eat</link> ()</para>
+</listitem>
+            <listitem><para>String <link linkend="_classdomain_1_1_animal_1a1b29e1c4522c9593ac169ea0b113fa07">toString</link> ()</para>
+</listitem>
+        </itemizedlist>
+<simplesect>
+    <title>Additional Inherited Members    </title>
+Protected Attributes inherited from <link linkend="_classdomain_1_1_animal">domain.Animal</link>        <itemizedlist>
+            <listitem><para>String <link linkend="_classdomain_1_1_animal_1aa404f820cb6a0fdfb51dc488a8c9f871">name</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_classdomain_1_1_animal_1a937ad181fcbf5bac512bd934bda9f1f4">weight</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line <link linkend="__dove_8java_source_1l00003">3</link> of file <link linkend="__dove_8java_source">Dove.java</link>.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classdomain_1_1_dove_1a416b684717e71eba467865cfab505e6d"/><section>
+    <title>Dove()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>Dove</primary><secondary>domain.Dove</secondary></indexterm>
+<indexterm><primary>domain.Dove</primary><secondary>Dove</secondary></indexterm>
+<para><computeroutput>domain.Dove.Dove (String name, float weight, String kind)</computeroutput></para><para>
+Definition at line <link linkend="__dove_8java_source_1l00007">7</link> of file <link linkend="__dove_8java_source">Dove.java</link>.</para>
+</section>
+<anchor xml:id="_classdomain_1_1_dove_1a06a5b90f516a42bbc0cf57d01da13aa9"/><section>
+    <title>Dove()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>Dove</primary><secondary>domain.Dove</secondary></indexterm>
+<indexterm><primary>domain.Dove</primary><secondary>Dove</secondary></indexterm>
+<para><computeroutput>domain.Dove.Dove ( )</computeroutput></para><para>
+Definition at line <link linkend="__dove_8java_source_1l00013">13</link> of file <link linkend="__dove_8java_source">Dove.java</link>.</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classdomain_1_1_dove_1a3f0d7bfaaf92b2c9fff30fab0a88013d"/><section>
+    <title>eat()</title>
+<indexterm><primary>eat</primary><secondary>domain.Dove</secondary></indexterm>
+<indexterm><primary>domain.Dove</primary><secondary>eat</secondary></indexterm>
+<para><computeroutput>void domain.Dove.eat ( )</computeroutput></para><para>
+Reimplemented from <link linkend="_classdomain_1_1_animal_1aeb4cdcb2e2faa803e125dea86486e474">domain.Animal</link>.</para>
+<para>
+Definition at line <link linkend="__dove_8java_source_1l00032">32</link> of file <link linkend="__dove_8java_source">Dove.java</link>.</para>
+</section>
+<anchor xml:id="_classdomain_1_1_dove_1af841a752b6c58c3798065edba106d943"/><section>
+    <title>fly()</title>
+<indexterm><primary>fly</primary><secondary>domain.Dove</secondary></indexterm>
+<indexterm><primary>domain.Dove</primary><secondary>fly</secondary></indexterm>
+<para><computeroutput>void domain.Dove.fly ( )</computeroutput></para><para>
+Reimplemented from <link linkend="_classdomain_1_1_bird_1a4102ef3fffae4c27a38a9badd5d44aa6">domain.Bird</link>.</para>
+<para>
+Definition at line <link linkend="__dove_8java_source_1l00022">22</link> of file <link linkend="__dove_8java_source">Dove.java</link>.</para>
+</section>
+<anchor xml:id="_classdomain_1_1_dove_1ab21d3b85c9ad798c2a4b477380e8bd82"/><section>
+    <title>sendMail()</title>
+<indexterm><primary>sendMail</primary><secondary>domain.Dove</secondary></indexterm>
+<indexterm><primary>domain.Dove</primary><secondary>sendMail</secondary></indexterm>
+<para><computeroutput>void domain.Dove.sendMail (String mail)</computeroutput></para><para>
+Definition at line <link linkend="__dove_8java_source_1l00017">17</link> of file <link linkend="__dove_8java_source">Dove.java</link>.</para>
+</section>
+<anchor xml:id="_classdomain_1_1_dove_1ae185c889d25840368e3eabbd2596a113"/><section>
+    <title>toString()</title>
+<indexterm><primary>toString</primary><secondary>domain.Dove</secondary></indexterm>
+<indexterm><primary>domain.Dove</primary><secondary>toString</secondary></indexterm>
+<para><computeroutput>String domain.Dove.toString ( )</computeroutput></para><para>
+Reimplemented from <link linkend="_classdomain_1_1_animal_1a1b29e1c4522c9593ac169ea0b113fa07">domain.Animal</link>.</para>
+<para>
+Definition at line <link linkend="__dove_8java_source_1l00027">27</link> of file <link linkend="__dove_8java_source">Dove.java</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+F:/Java_Projects/java-inheritance-serhio-sys/src/domain/<link linkend="__dove_8java">Dove.java</link></section>
+</section>
